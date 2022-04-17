@@ -1,0 +1,68 @@
+.bg-site{
+    background: $btn-color;    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
+}
+.nav-logo{
+    img{
+        width:220px;
+        height:260px;
+    }
+    
+}
+.nav-text{
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+    width: 100%;
+    height: 80px;
+     
+    a{
+        color: white;
+        font-weight: 700;
+        font-size: 30px;
+        margin: 15px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.menu-sidebar{
+    height: 100vh;
+    position: fixed;
+}
+
+.nav-link{
+    border-bottom: 1px solid rgba(201, 200, 200, 0.72);
+    &:hover{
+    
+    border-left: 3px solid #ED7839;
+    background: #FDF1EB;
+    }
+}
+
+.main-content{
+    padding-left: 220px;
+}
+
+.menu-mobile{
+    li{
+        a{
+            color: #fff;
+
+            &:hover{
+                background: $btn-color;
+                color: #fff;
+            }
+        }
+
+        
+    }
+    
+}
+
+
+
+
+
+

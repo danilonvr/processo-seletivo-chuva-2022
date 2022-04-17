@@ -1,0 +1,231 @@
+.topics-section{
+    .card-title{
+        color: $section-text-color;
+        font-weight: bold;
+        text-align: center;
+    }
+    .card-text{
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+.send-topic-sucess{
+    p, span, a{
+        text-align: center;
+    }
+
+    p{
+        color: $section-text-color;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    span{
+        color: $card-font-color;
+        margin-bottom: 30px;
+    }
+    a{
+        color: $section-text-color;
+    }
+    .btn{
+        span{
+            color: #fff;
+        }
+        
+    }
+}
+
+
+.hidden-text{
+    text-align: center;
+    color: $card-font-color;
+
+    .form-label{
+        display: flex;
+        span{
+            color: $section-text-color;
+            font-weight: bolder;
+            }
+        }
+    
+    .form-control{
+        &:focus{
+            box-shadow: none;
+            border: 1px solid $btn-color;
+            }
+        }
+    }
+
+    
+
+
+
+.gray-bg{
+    background-color: $hidden-topic-bg;
+    
+}
+
+.gray-bg-icons{
+    width: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    img{
+        cursor: pointer;
+    }
+    
+}
+
+.gray-bg-button{
+    width: 20%;
+    height: 50px;
+
+    .btn{
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        font-weight: bold;
+    }
+}
+
+.topic{
+    .card-text{
+        font-size: 16px;
+    }
+}
+
+.topics{
+    .card-title{
+        text-align: start;
+    }
+    .card-text{
+        text-align: start; 
+        font-size: 16px;   
+        
+    }
+    .card-link{
+        color: $card-font-color;
+        text-decoration: none;
+    }
+}
+
+
+
+
+
+.topic-card{
+    cursor: pointer;
+}
+
+.topic-comments{
+    cursor: default;
+}
+
+.autor-coautor{
+    background-color: $comments-autor-coautor-bg;
+}
+
+
+.comment-title{
+
+     .comment-badge{
+        
+        span{
+            color: $section-text-color;
+            font-size: 1.1em;
+            margin-right: 15px;
+        }
+    }
+}
+
+
+.ul-comments{
+    p{
+        color:$feedback-font-color;
+        font-weight: bold;
+    }
+}
+
+
+.topic-buttons{
+    width: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn{
+        margin-bottom: 0px;
+
+        i{
+            display: flex;
+        }
+    }
+}
+
+.button-topic-position{
+    position: relative;
+    top: 22px;
+    z-index: 5;
+}
+.menu-circle{
+    display: flex;
+    flex-direction: column;
+    margin-right: .5rem;
+    padding-top: 5px;
+    cursor: pointer;
+    width: 15px;
+
+
+    .circle1,.circle2,.circle3{
+        height: 5px;
+        width: 5px;
+        border: 1px solid $section-text-color;
+        background: $section-text-color;
+        border-radius: 50%;
+        margin-bottom: 5px;
+
+       
+        
+    }
+    
+}
+
+.feedback-topic{
+    position: relative;
+    height: 160px;
+    background-color: $feedback-waiting-bg-color;
+    
+    .blurred-topic{
+        filter: blur(3px);
+    -webkit-filter: blur(3px);
+    
+    }
+
+    .waiting-feedback-topic{
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        opacity: 1;
+
+        p{
+            font-weight: bold;
+            color: $feedback-font-color;
+            font-size: 18px;
+        }
+
+        a{
+            color: $section-text-color;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.hidden{
+
+    display: none;
+}
+

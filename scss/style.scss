@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    font-family: Roboto, sans-serif;
+}
+p,span{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+@import './others/colors.scss';
+
+@import './others/sidebar.scss';
+
+@import './others/header.scss';
+
+@import './others/main-section.scss';
+
+@import './others/topic-section.scss';
+
+@import './others/responsive.scss';
